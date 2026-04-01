@@ -1,4 +1,4 @@
-# STM32 Common APIs
+# STM32 Common APIs - Introduction
 
 ## Core / System
 - `HAL_Init()` - Initialize HAL and SysTick
