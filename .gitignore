@@ -1,0 +1,30 @@
+# Workspace-wide STM32 build outputs
+**/Debug/
+**/Release/
+**/build/
+**/Binaries/
+**/Listings/
+**/Objects/
+**/output/
+**/.settings/
+
+# IDE and workspace metadata
+.metadata/
+.vscode/
+**/*.launch
+**/.project
+**/.cproject
+
+# CubeIDE generated files
+*.o
+*.d
+*.su
+*.cyclo
+*.list
+*.map
+*.elf
+*.bin
+*.hex
+*.log
+*.tmp
+*.dep
