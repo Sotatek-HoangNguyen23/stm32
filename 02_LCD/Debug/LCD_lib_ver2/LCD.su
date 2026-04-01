@@ -1,3 +1,0 @@
-../LCD_lib_ver2/LCD.c:3:6:LCD_Write_Byte	16	static
-../LCD_lib_ver2/LCD.c:30:6:LCD_Print	16	static
-../LCD_lib_ver2/LCD.c:36:6:LCD_init	16	static
