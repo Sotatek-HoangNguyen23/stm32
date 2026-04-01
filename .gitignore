@@ -6,14 +6,15 @@
 **/Listings/
 **/Objects/
 **/output/
-**/.settings/
 
-# IDE and workspace metadata
+# CubeIDE / workspace metadata to keep local only
 .metadata/
 .vscode/
-**/*.launch
+**/.settings/
 **/.project
 **/.cproject
+**/.mxproject
+**/*.launch
 
 # CubeIDE generated files
 *.o
