@@ -1,4 +1,27 @@
-# Workspace-wide STM32 build outputs
+# Ignore STM32 CubeIDE / Eclipse metadata and build outputs
+# IDE metadata
+*.project
+*.cproject
+language.settings.xml
+.settings/
+.metadata/
+*.launch
+
+# Build outputs and object files
+Debug*/
+Debug/
+Release/
+build/
+bin/
+*.o
+*.d
+*.elf
+*.axf
+*.hex
+*.bin
+*.map
+
+# Optional: keep .ioc tracked (remove if you want to ignore CubeMX project files)# Workspace-wide STM32 build outputs
 **/Debug/
 **/Release/
 **/build/
