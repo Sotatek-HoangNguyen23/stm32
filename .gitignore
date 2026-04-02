@@ -52,3 +52,8 @@ bin/
 *.log
 *.tmp
 *.dep
+
+# STMCubeIDE / CubeMX prefs and per-project settings
+*/.settings/*.prefs
+*.prefs
+stmcubeide.project.prefs
