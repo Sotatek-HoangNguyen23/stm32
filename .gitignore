@@ -1,27 +1,20 @@
-# Ignore STM32 CubeIDE / Eclipse metadata and build outputs
-# IDE metadata
-*.project
-*.cproject
-language.settings.xml
-.settings/
+# STM32 CubeIDE / Eclipse metadata
 .metadata/
-*.launch
+.vscode/
+.settings/
+**/.settings/
+**/.project
+**/.cproject
+**/.mxproject
+**/*.launch
+**/language.settings.xml
 
-# Build outputs and object files
-Debug*/
+# Build outputs and generated files
 Debug/
+Debug*/
 Release/
 build/
 bin/
-*.o
-*.d
-*.elf
-*.axf
-*.hex
-*.bin
-*.map
-
-# Optional: keep .ioc tracked (remove if you want to ignore CubeMX project files)# Workspace-wide STM32 build outputs
 **/Debug/
 **/Release/
 **/build/
@@ -29,31 +22,21 @@ bin/
 **/Listings/
 **/Objects/
 **/output/
-
-# CubeIDE / workspace metadata to keep local only
-.metadata/
-.vscode/
-**/.settings/
-**/.project
-**/.cproject
-**/.mxproject
-**/*.launch
-
-# CubeIDE generated files
 *.o
 *.d
 *.su
 *.cyclo
 *.list
-*.map
+*.dep
 *.elf
+*.axf
 *.bin
 *.hex
+*.map
 *.log
 *.tmp
-*.dep
 
-# STMCubeIDE / CubeMX prefs and per-project settings
-*/.settings/*.prefs
+# CubeIDE preferences
 *.prefs
+*/.settings/*.prefs
 stmcubeide.project.prefs
